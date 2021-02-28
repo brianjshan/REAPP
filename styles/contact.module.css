@@ -5,11 +5,11 @@
   align-content: center;
   align-items: center;
   margin: 1vh;
-  color: white;
+  color: black;
 }
 
 .innerBoxes {
-  border: 1pt solid white;
+  border: 1pt solid black;
   width: 60vh;
   height: 25vh;
   margin: 5vh;

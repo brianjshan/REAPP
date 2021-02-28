@@ -44,7 +44,6 @@ export default function AboutMe() {
           <FacebookIcon style={{ fontSize: "40px" }} />
         </a>
       </div>
-
       <div className={styles.main}>
         <img
           src="pics/image.jpg"

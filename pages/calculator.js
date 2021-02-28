@@ -17,9 +17,9 @@ export default function Calculator() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            color: "white",
-            backgroundColor: "black",
-            width: "50%",
+            color: "black",
+            backgroundColor: "lightgray",
+            width: "60%",
             borderRadius: "10px",
             margin: "10px",
           }}
