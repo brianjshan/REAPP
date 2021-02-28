@@ -1,4 +1,5 @@
 import MobileNav from "../components/home/navBar";
+import Footer from "../components/home/footer";
 
 export default function Calculator() {
   return (
@@ -61,15 +62,15 @@ export default function Calculator() {
           }}
         >
           <a
-            style={{ color: "#868686" }}
+            style={{ color: "#868686", paddingLeft: "10px" }}
             href="https://www.mortgagecalculator.org/free-tools/javascript-mortgage-calculator.php"
             target="_blank"
           >
-            Javascript Mortgage Calculator
+            Javascript Mortgage Calculator by MortgageCalculator.org
           </a>
-          by MortgageCalculator.org
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
