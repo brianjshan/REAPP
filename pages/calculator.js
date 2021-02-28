@@ -1,6 +1,6 @@
 import Footer from "../components/home/footer";
 import MobileNav from "../components/home/navBar";
-import styles from '../styles/Calculator.module.css';
+import styles from "../styles/Calculator.module.css";
 
 export default function Calculator() {
   return (
@@ -19,9 +19,9 @@ export default function Calculator() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            color: "white",
-            backgroundColor: "black",
-            width: "50%",
+            color: "black",
+            backgroundColor: "lightgray",
+            width: "60%",
             borderRadius: "10px",
             margin: "10px",
           }}
@@ -59,13 +59,12 @@ export default function Calculator() {
           }}
         >
           <a
-            style={{ color: "#868686" }}
+            style={{ color: "#868686", paddingLeft: "10px" }}
             href="https://www.mortgagecalculator.org/free-tools/javascript-mortgage-calculator.php"
             target="_blank"
           >
-            Javascript Mortgage Calculator
+            Javascript Mortgage Calculator by MortgageCalculator.org
           </a>
-          by MortgageCalculator.org
         </div> */}
       </div>
       <Footer />

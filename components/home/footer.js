@@ -18,8 +18,11 @@ export default function Footer() {
           target="_blank"
         >
           <img
-            src="pics/zillowicon.webp"
-            style={{ width: "5vh", marginRight: "20px" }}
+            src="pics/zillow.png"
+            style={{
+              width: "5vh",
+              marginRight: "20px",
+            }}
           ></img>
         </a>
         <a href="https://www.instagram.com/brokerbrianhan/" target="_blank">
