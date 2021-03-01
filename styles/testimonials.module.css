@@ -1,0 +1,22 @@
+#testimonials_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form_entry{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.testimonials_text{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+#textBox{
+  max-width: 100%;
+}
