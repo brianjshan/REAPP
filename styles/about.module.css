@@ -1,6 +1,23 @@
 .container {
-  background-color: darkslategray;
+  background-color: white;
   height: 100vh;
+}
+
+.main {
+  text-align: center;
+  color: black;
+}
+
+.background {
+  background-image: url("/pics/1.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logoBox {
@@ -17,28 +34,24 @@
   margin: 1vh;
 }
 
-.main {
-  text-align: center;
-  color: white;
-}
-
 .body {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 20vh;
 }
 
 .button {
   margin: 10px;
-  color: white;
+  color: black;
   border: none;
   outline: none;
   font-size: 15pt;
   border-radius: 20px;
-  background-color: darkslategray;
+  background-color: white;
 }

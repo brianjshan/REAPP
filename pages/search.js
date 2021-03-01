@@ -14,8 +14,10 @@ export default function Search() {
   return (
     <>
       <NavBar />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <h1>Let me help you find your dream home today!</h1>
+      </div>
       <SearchForm />
-
       <Footer />
     </>
   );

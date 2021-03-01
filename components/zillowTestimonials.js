@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/home/footer";
 
 export default function ZillowTestimonials() {
   return (
@@ -292,6 +293,7 @@ export default function ZillowTestimonials() {
           </span>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

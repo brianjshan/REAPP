@@ -18,40 +18,24 @@ export default function AboutMe() {
   return (
     <div className={styles.container}>
       <MobileNav />
-      <div className={styles.logoBox}>
-        <a
-          className={styles.logos}
-          href="https://www.zillow.com/profile/brokerbrianhan/"
-          target="_blank"
-        >
-          <img
-            src="pics/zillowicon.webp"
-            style={{ width: "40px", height: "40px" }}
-          ></img>
-        </a>
-        <a
-          className={styles.logos}
-          href="https://www.instagram.com/brokerbrianhan/"
-          target="_blank"
-        >
-          <InstagramIcon style={{ fontSize: "40px" }} />
-        </a>
-        <a
-          className={styles.logos}
-          href="https://www.facebook.com/brokerbrianhan"
-          target="_blank"
-        >
-          <FacebookIcon style={{ fontSize: "40px" }} />
-        </a>
-      </div>
-
       <div className={styles.main}>
-        <img
-          src="pics/image.jpg"
-          style={{ width: "30vh", height: "30vh", borderRadius: "20vh" }}
-        ></img>
+        <div className={styles.background}>
+          <img
+            src="pics/image.jpg"
+            style={{
+              marginTop: "10vh",
+              width: "30vh",
+              height: "30vh",
+              borderRadius: "20vh",
+              border: "3pt solid white",
+              // position: "absolute",
+              // top: "25vh",
+              // left: "500px",
+            }}
+          ></img>
+        </div>
         <h1>Brian J Han</h1>
-        <h2>PNW Realtor</h2>
+        <h2>Realtor in the Greater Dallas area</h2>
       </div>
       <br />
       <div className={styles.body}>
